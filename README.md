@@ -1,12 +1,12 @@
-# noise-rs
+# noice
 
-[![Build Status](https://travis-ci.org/Razaekel/noise-rs.svg?branch=master)](https://travis-ci.org/Razaekel/noise-rs)
-[![Documentation](https://img.shields.io/badge/documentation-online-blue.svg)](https://docs.rs/noise/)
-[![Crates.io](https://img.shields.io/crates/v/noise.svg)](https://crates.io/crates/noise)
+[![Build Status](https://img.shields.io/github/workflow/status/voxl-rs/noice/Rust?style=flat)](https://github.com/voxl-rs/noice/actions)
+[![Documentation](https://img.shields.io/badge/documentation-online-blue.svg)](https://docs.rs/noice/)
+[![Crates.io](https://img.shields.io/crates/v/noice.svg)](https://crates.io/crates/noice)
 
-A procedural noise generation library for Rust.
+A procedural noise generation library for rust - forked from [noise-rs](https://github.com/Razaekel/noise-rs)
 
-[Documentation](https://docs.rs/noise/)
+[Documentation](https://docs.rs/noice/)
 
 ```rust
 use noise::{Fbm, NoiseFn};
