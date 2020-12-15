@@ -1,8 +1,5 @@
 //! An example of using the `RidgedMulti` noise function
-
-extern crate noise;
-
-use noise::{utils::*, RidgedMulti};
+use noice::{utils::*, RidgedMulti};
 
 fn main() {
     let ridged_multi = RidgedMulti::new();

@@ -1,8 +1,5 @@
 //! An example of using the Billow noise function
-
-extern crate noise;
-
-use noise::{utils::*, Billow};
+use noice::{utils::*, Billow};
 
 fn main() {
     PlaneMapBuilder::new(&Billow::new())

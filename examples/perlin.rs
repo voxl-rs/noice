@@ -1,8 +1,5 @@
 //! An example of using perlin noise
-
-extern crate noise;
-
-use noise::{utils::*, Perlin, Seedable};
+use noice::{utils::*, Perlin, Seedable};
 
 fn main() {
     let perlin = Perlin::new();

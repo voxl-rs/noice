@@ -3,7 +3,7 @@
 //! # Example
 //!
 //! ```rust
-//! use noise::{NoiseFn, Perlin};
+//! use noice::{NoiseFn, Perlin};
 //!
 //! let perlin = Perlin::new();
 //! let val = perlin.get([42.4, 37.7, 2.8]);

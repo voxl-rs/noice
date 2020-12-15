@@ -1,8 +1,5 @@
 //! An example of generating constant valued noise
-
-extern crate noise;
-
-use noise::{utils::*, Constant};
+use noice::{utils::*, Constant};
 
 fn main() {
     PlaneMapBuilder::new(&Constant::new(-1.0))

@@ -1,8 +1,5 @@
 //! An example of using value noise
-
-extern crate noise;
-
-use noise::{utils::*, Value};
+use noice::{utils::*, Value};
 
 fn main() {
     PlaneMapBuilder::new(&Value::new())

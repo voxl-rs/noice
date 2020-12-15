@@ -1,6 +1,4 @@
-extern crate noise;
-
-use noise::{utils::*, *};
+use noice::{utils::*, *};
 
 fn main() {
     // Base wood texture. Uses concentric cylinders aligned on the z-axis, like a log.

@@ -1,6 +1,4 @@
-extern crate noise;
-
-use noise::{utils::*, Curve, Perlin};
+use noice::{utils::*, Curve, Perlin};
 
 fn main() {
     let perlin = Perlin::new();

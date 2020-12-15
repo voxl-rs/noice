@@ -1,6 +1,4 @@
-extern crate noise;
-
-use noise::{utils::*, Checkerboard, ScalePoint};
+use noice::{utils::*, Checkerboard, ScalePoint};
 
 fn main() {
     let cboard = Checkerboard::default();

@@ -1,6 +1,4 @@
-extern crate noise;
-
-use noise::{utils::*, RangeFunction, Worley};
+use noice::{utils::*, RangeFunction, Worley};
 
 fn main() {
     PlaneMapBuilder::new(&Worley::new())

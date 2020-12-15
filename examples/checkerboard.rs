@@ -1,8 +1,5 @@
 //! An example of generating constant valued noise
-
-extern crate noise;
-
-use noise::{utils::*, Checkerboard};
+use noice::{utils::*, Checkerboard};
 
 fn main() {
     let checker = Checkerboard::default();

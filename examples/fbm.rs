@@ -1,8 +1,5 @@
 //! An example of using the fBm noise function
-
-extern crate noise;
-
-use noise::{utils::*, Fbm};
+use noice::{utils::*, Fbm};
 
 fn main() {
     let fbm = Fbm::new();

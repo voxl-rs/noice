@@ -1,8 +1,5 @@
 //! An example of using the `BasicMulti` noise function
-
-extern crate noise;
-
-use noise::{utils::*, BasicMulti};
+use noice::{utils::*, BasicMulti};
 
 fn main() {
     PlaneMapBuilder::new(&BasicMulti::new())

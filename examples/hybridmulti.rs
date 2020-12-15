@@ -1,8 +1,5 @@
 //! An example of using the `HybridMulti` noise function
-
-extern crate noise;
-
-use noise::{utils::*, HybridMulti};
+use noice::{utils::*, HybridMulti};
 
 fn main() {
     let hybrid_multi = HybridMulti::new();
